@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cart-header.css" />
+    <link rel="stylesheet" href="css/cart-main.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cart</title>
+  </head>
+  <body>
+    <div class="checkout-header">
+      <div class="header-content">
+        <div class="checkout-header-left-section">
+          <a href="home.html">
+            <img class="amazon-logo" src="logos/amazon-logo.png" />
+          </a>
+        </div>
+
+        <div class="checkout-header-middle-section">
+          Checkout (<a class="return-to-home-link" href="home.html">0 items</a>)
+        </div>
+
+        <div class="checkout-header-right-section">
+          <img src="logos/checkout-lock-icon.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="outer-main">
+      <p class="review">Review Your Order</p>
+      <div class="cart-main js-cart-main"></div>
+      <div class="payment-summary">
+        <p class="order-summary">Order Summary</p>
+        <div class="items">
+          <p class="items-count">Items(0):</p>
+          <p class="items-price-total">$0</p>
+        </div>
+        <div class="shipping">
+          <p class="items-handling">Shipping & handling:</p>
+          <p class="handling-price-total">$0</p>
+        </div>
+        <div class="total">
+          <p class="total-before-tax">Total before tax:</p>
+          <p class="before-tax-price-total">$0</p>
+        </div>
+        <div class="tax">
+          <p class="estimated-tax">Estimated tax(10%):</p>
+          <p class="items-price-total">$0</p>
+        </div>
+        <div class="order-total">
+          <p class="grand-total">Order total:</p>
+          <p class="items-price-total">$0</p>
+        </div>
+        <div class="place-order">
+          <button class="place-order-button">Place your order</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/checkout.js" type="module"></script>
+  </body>
+</html>
