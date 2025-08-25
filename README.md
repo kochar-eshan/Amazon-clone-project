@@ -10,7 +10,7 @@ The project was guided by tutorials from **[SuperSimpleDev](https://www.youtube.
 ---
 
 ## 🚀 Live Demo  
-Check out the project here: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-green?style=for-the-badge)][(https://kochar-eshan.github.io/Amazon-clone-project/home.html)]
+Check out the project here: [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-green?style=for-the-badge)][[!Visit Now](https://kochar-eshan.github.io/Amazon-clone-project/home.html)]
 
 ---
 
